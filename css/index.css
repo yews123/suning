@@ -1,0 +1,168 @@
+/* 主题部分模块 */
+.main{
+    width: 1000px;
+    height: 476px;
+    margin-left: 200px;
+    background-color: purple;
+}
+.main .focus{
+    width: 800px;
+    height: 476px;
+    position: relative;
+    float: left;
+}
+.main .focus img{
+    width: 800px;
+    height: 476px;
+}
+.main .focus .img{
+    position: absolute;
+    width: 800px;
+    height: 112px;
+    top: 364px;
+    left: 5px;
+}
+.main .focus .img img{
+    width: 194px;
+    height: 112px;
+}
+ .main .newflash{
+    float: left;
+    width: 200px;
+    height: 476px;
+    background-color: white;
+}
+.newflash .top-box{
+    width: 200px;
+    height: 225px;
+    background-color: #ccc;
+}
+.top-box .btn{
+    width: 200px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.btn .img{
+    float: left;
+}
+.btn img{
+    width: 50px;
+    height: 50px;
+}
+.btn .wz{
+    float: left;
+    margin-left: 5px;
+}
+.btn .wz p{
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+}
+.top-box .new{
+    width: 156px;
+    height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    margin-top: 10px;
+}
+.top-box .super{
+    width: 156px;
+    height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+    margin-top: 10px;
+}
+.top-box>a{
+    display: block;
+    width: 50px;
+    height: 85px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+}
+.top-box>a img{
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin-bottom: 10px;
+}
+.pic{
+    width: 200px;
+    height: 251px;
+    overflow: hidden;
+}
+.pit{
+    width: 213px;
+    height: 254px;
+}
+.pic a{
+    width: 70px;
+    height: 85px;
+    display: block;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+.pic a img{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.pic a p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+/* 楼层区start */
+.bg{
+    background-color: #ccc;
+    height: 600px;
+}
+.floor{
+    height: 580px;
+    background-color: #fff;
+}
+.floor .xsms{
+    width: 590px;
+    height: 298px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+.floor .xsms .hd{
+    width: 590px;
+    height: 60px;
+}
+.floor .xsms .hd img{
+    width: 106px;
+    height: 30px;
+    margin: 10px 0 0 5px;
+}
+.bd a{
+    display: block;
+    width: 170px;
+    height: 238px;
+    float: left;
+    margin-right: 20px;
+}
+.bd img{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 15px;
+}
+.bd .title{
+    width: 170px;
+    height: 20px;
+}
+.bd .price-box{
+    width: 170px;
+    height: 20px;
+}
